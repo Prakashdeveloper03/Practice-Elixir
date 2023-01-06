@@ -7,4 +7,4 @@ defmodule Factorial do
 end
 
 {num, _} = IO.gets("Enter the number : ") |> Integer.parse()
-IO.puts("Factorial of #{num} is #{Factorial.of(num)}")
+"Factorial of #{num} is #{Factorial.of(num)}" |> IO.puts()

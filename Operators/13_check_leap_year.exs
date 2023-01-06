@@ -9,7 +9,7 @@ end
 {year, _} = IO.gets("Enter a year : ") |> Integer.parse()
 
 if Year.leap_year?(year) do
-  IO.puts("#{year} is a leap year.")
+  "#{year} is a leap year." |> IO.puts()
 else
-  IO.puts("#{year} is not a leap year.")
+  "#{year} is not a leap year." |> IO.puts()
 end

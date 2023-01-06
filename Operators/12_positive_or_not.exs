@@ -1,7 +1,7 @@
 {num, _} = IO.gets("Enter the number : ") |> Integer.parse()
 
 if num > 0 do
-  IO.puts("#{num} is a positive number.")
+  "#{num} is a positive number." |> IO.puts()
 else
-  IO.puts("#{num} is a negative number.")
+  "#{num} is a negative number." |> IO.puts()
 end
